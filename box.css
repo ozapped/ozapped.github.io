@@ -1,9 +1,14 @@
-body { background-color: black;} #box {idth: 100px;
+ body {
+  background-color: black;
+  }
+#box {
+ width: 100px;
  height: 100px;
- text-align: center;animation: magic 1s alternate; 
- animation-iteration-count: infinite;
-}rames magic {
- 0% {background-color: blue;
+ text-align: center;
+ 
+ animation: magic 1s alternate; 
+ animation-iteration-count: infinite;}
+@keyframes magic {round-color: blue;
  border:5px solid white;
  border-radius: 5%;}
  50% {background-color: red;
@@ -13,3 +18,4 @@ body { background-color: black;} #box {idth: 100px;
  border: 10px dashed black;
  border-radius: 50%;
  transform: translate(800px,50px) rotate3d(.5, .6, .7, -175deg) scale(.2,.3)}
+}
